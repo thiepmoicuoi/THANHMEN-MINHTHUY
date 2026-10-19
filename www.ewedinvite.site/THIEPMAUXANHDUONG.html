@@ -111,6 +111,34 @@
 
 
 
+  <style>
+    /* Popup gửi mừng cưới: hiện nguyên tấm QR BIDV/VietQR. */
+    #w-2c48gxt3,
+    #w-16lbj2jd {
+      display: none !important;
+    }
+    #w-7cq2oqxs {
+      top: 12px !important;
+      left: 12px !important;
+      width: 376px !important;
+      height: 376px !important;
+    }
+    #w-7cq2oqxs .image-block-css {
+      border: 0 !important;
+      background: #fff !important;
+    }
+    #w-7cq2oqxs .image-background {
+      top: 0 !important;
+      left: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+      background-image: url("images/qr-bidv-thanh-men.png") !important;
+      background-size: contain !important;
+      background-position: center center !important;
+      background-repeat: no-repeat !important;
+      background-color: #fff !important;
+    }
+  </style>
   </head>
   <body ontouchstart>
 
@@ -374,7 +402,8 @@ mo.observe(document.documentElement, { childList: true, subtree: true });
   display: none !important;
 }
 #w-7cq2oqxs .image-background {
-  background-position: center 35% !important;
+  background-size: contain !important;
+  background-position: center center !important;
 }
 </style>
 <!--
